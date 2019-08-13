@@ -1,8 +1,8 @@
 %title: Why Unix Systems are superior
 %author: Marie Katrine Ekeberg
 
-# Why Unix Systems are superior
-## (for developers)
+-> Why Unix Systems are superior <-
+-> (for developers) <-
 
 --- 
 
@@ -18,9 +18,9 @@
 
 # How do we define a Unix system?
 
-Implementing POSIX standards (maybe include a bit about this)
-Its way of defining filesystems
-Having a command line that works in harmony with the rest of the system
+* POSIX compliant (MOST IMPORTANT!)
+* Its way of defining filesystems
+* Having a command line that works in harmony with the rest of the system
 
 
 ---
@@ -39,9 +39,11 @@ Command line doesn't have pipes! Or they are very primitive!
 
 # Added bonuses of Unix and opensource tools
 
-Multi-user system -> no admin/Root access by default
+Multi-user system -> no admin/Root access by default 
 Most logs and diagnostic information can usually be accessed
-Better community information on how to fix things (since everything is customizable!)
+Better community support
+Security (because of first one and more)
+Command line has a timelessness. Knew how to use it in the 80s? You still do! :)
 
 ---
 
@@ -62,27 +64,47 @@ Let's learn some commands!
 
 ---
 
-# Searching
+# Searching with grep
+TODO: should pipes be used here already? Or should pipes section be moved?
 
--- todo: find a good way of showing grep examples
+    /home/nightwing $ cat SUPERHERO_IDENTITIES.txt | grep BATMAN
+    BATMAN=Bruce Wayne 
+	
+	/home/nightwing $ grep -rnE "Tim Drake" 
+	./SUPERHERO_IDENTITIES.txt:ROBIN=Tim Drake
 
 --- 
 
 # Reading docs
 
--- TODO: see if we can find a way of introducing man...
+    /home/nightwing $ man grep
+	
+	/home/nightwing $ man docker-run
 
 ---
 
-# Pipes 101
+# Pipes
+TODO: should chaining be included somewhere? And the output of these operations
 
-echo "Writing a test file"
+Output of one program -> input to another!
+
+    /home/nightwing $ echo "Writing a test file" > testfile.txt
+	/home/nightwing $ echo "Appending a new line in testfile.txt" >> testfile.txt
+	
+	/home/nightwing $ ls | grep Programming
 
 ---
 
 # Scripts!
 
--- todo: basic intro to scripting. Just show that you can automate...
+-- TODO: make it better!
+
+Can put a sequence of commands into a file!
+
+    #!/bin/bash
+	
+	# TODO: should I just reuse one of my earlier stuff?
+
 
 ---
 
