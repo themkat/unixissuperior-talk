@@ -3,11 +3,11 @@ My talk titled "Why Unix Systems are superior" that I will give at work, and may
 
 
 ## Running the slides
-Clone this repo, navigate to it, and then follow the instructions below according to your setup. If you do not want to "pollute" your system, then Docker is always the best day :D
+Clone this repo, navigate to it, and then follow the instructions below according to your setup. If you don't want to "pollute" your system, then Docker is always the best way :D
 
 
 ### Local MDP install
-If you have installed MDP locally by following [the instructions in the repo](https://github.com/visit1985/mdp), you can simply type:
+If you have installed MDP locally by following [the instructions in the repo](https://github.com/visit1985/mdp) or using a package manager, you can simply type:
 ```bash
 mdp slides.md
 ```
