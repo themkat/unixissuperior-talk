@@ -75,18 +75,18 @@ Let's learn some commands!
 	
 	/home/nightwing $ man docker-run
 
-
 --- 
 
 # Pipes
-TODO: should chaining be included somewhere? And the output of these operations
-
 Output of one program -> input to another!
 
     /home/nightwing $ echo "Writing a test file" > testfile.txt
 	/home/nightwing $ echo "Appending a new line in testfile.txt" >> testfile.txt
 	
 	/home/nightwing $ ls | grep Programming
+	
+	#not really a pipe, but a chain
+	/home/nightwing $ first-command && next-command
 
 ---
 
