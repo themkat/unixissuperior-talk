@@ -91,7 +91,6 @@ Output of one program -> input to another!
 ---
 
 # Searching with grep
-TODO: should pipes be used here already? Or should pipes section be moved?
 
     /home/nightwing $ cat SUPERHERO_IDENTITIES.txt | grep BATMAN
     BATMAN=Bruce Wayne 
