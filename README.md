@@ -3,6 +3,15 @@ My talk titled "Why Unix Systems are superior" that I will give at work, and may
 
 
 ## Running the slides
+
+## Local MDP install
+If you have installed MDP locally by following [the instructions in the repo](https://github.com/visit1985/mdp), you can simply type:
+```bash
+mdp slides.md
+```
+
+
+## From Docker
 To run the slides use the command (from inside this folder!):
 ```bash
 docker run --rm -it -v $PWD:/slides themkat/mdp:1.0 
