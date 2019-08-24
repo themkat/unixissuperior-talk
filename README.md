@@ -6,14 +6,14 @@ My talk titled "Why Unix Systems are superior" that I will give at work, and may
 Clone this repo, navigate to it, and then follow the instructions below according to your setup. If you do not want to "pollute" your system, then Docker is always the best day :D
 
 
-## Local MDP install
+### Local MDP install
 If you have installed MDP locally by following [the instructions in the repo](https://github.com/visit1985/mdp), you can simply type:
 ```bash
 mdp slides.md
 ```
 
 
-## From Docker
+### From Docker
 To run the slides use the command (from inside this folder!):
 ```bash
 docker run --rm -it -v $PWD:/slides themkat/mdp:1.0 
