@@ -99,16 +99,25 @@ Output of one program -> input to another!
 
 ---
 
+
 # Scripts!
 
--- TODO: make it better!
-
-Can put a sequence of commands into a file!
+Can put a sequence of commands into a file! 
 
     #!/bin/bash
 	
-	# TODO: should I just reuse one of my earlier stuff?
+	INPUTFOLDER=$1
+	TIMESTAMP=$(date +%s)
+    cp -r $INPUTFOLDER $HOME/backup-$TIMESTAMP
 
+
+To run:
+
+	#from same directory:
+	./myscript.sh
+
+	# If put into PATH:
+	myscript.sh
 
 ---
 
