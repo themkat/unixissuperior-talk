@@ -122,4 +122,14 @@ To run:
 
 ---
 
-Thank you all! Now go home and learn more about Unix-inspired systems! :)
+# Curious? What should you research next?
+
+* File permissions and the chmod command
+* Environment variables
+* bash script syntax (if, loops etc.)
+* Alternative shells (zsh, fish etc.)
+
+---
+
+-> Thank you all! <- 
+-> Now go home and learn more about Unix-inspired systems! :) <-
