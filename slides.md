@@ -32,13 +32,12 @@
 
 # Pain points outside Unix systems
 
-File locks
-Command line seems separate from the rest of the system (not like a building block)
-Libraries for programming and other things can be tricky to install sometimes!
-Package managers are often incomplete or has a very limited selection 
-Minimal customizability -> usually rely on external programs. Mac is sadly not much better, but still more opportunities) 
-
-Command line doesn't have pipes! Or they are very primitive!
+* File locks
+* Command line feels like an after-thought
+* Tricky library/program installations
+* Package managers more limited 
+* Minimal customizability
+* Non-existent or primitive pipes! 
 
 ---
 
