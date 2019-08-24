@@ -41,13 +41,14 @@
 
 ---
 
-# Added bonuses of Unix and opensource tools
+# Added bonuses of Unix and open source tools
 
-Multi-user system -> no admin/Root access by default 
-Most logs and diagnostic information can usually be accessed
-Better community support
-Security (because of first one and more)
-Command line has a timelessness. Knew how to use it in the 80s? You still do! :)
+* Multi-user system -> no admin/root access by default 
+* Most logs and diagnostic information can usually be accessed
+* Better community support
+* Security (because of first one and more)
+* Command line has a timelessness 
+  * Knew how to use it in the 80s? You still do! :)
 
 ---
 
