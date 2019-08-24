@@ -1,5 +1,5 @@
 # Why Unix Systems are superior
-My talk titled "Why Unix Systems are superior" that I will give at work, and maybe other places. It is basically just about some issues you have with Windows, and what makes the Unix based systems (GNU/Linux distros, Mac OS X etc.) better to use for development. 
+My talk titled "Why Unix Systems are superior" that I will give at work, and maybe other places. It is basically just about some issues you have with Windows, and what makes the Unix based systems (GNU/Linux distros, Mac OS X etc.) better to use for development. A short introduction to the command line is the main focus. 
 
 
 ## Running the slides
