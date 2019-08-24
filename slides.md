@@ -23,7 +23,8 @@
   * Pipes
   * Utility programs (grep, cat, ls etc.)
   * File system definition
-  * More!
+  * man pages <3
+  * ... and more!
 * Command line in harmony with the rest of the system
 
 
