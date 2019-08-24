@@ -71,8 +71,8 @@ Let's learn some commands!
 
 # Reading docs
 
-    /home/nightwing $ man grep
-	
+    /home/nightwing $ man ls
+	/home/nightwing $ man grep
 	/home/nightwing $ man docker-run
 
 --- 
