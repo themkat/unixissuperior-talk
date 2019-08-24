@@ -19,8 +19,12 @@
 # How do we define a Unix system?
 
 * POSIX compliant (MOST IMPORTANT!)
-* Its way of defining filesystems
-* Having a command line that works in harmony with the rest of the system
+  * Command line standards
+  * Pipes
+  * Utility programs (grep, cat, ls etc.)
+  * File system definition
+  * More!
+* Command line in harmony with the rest of the system
 
 
 ---
