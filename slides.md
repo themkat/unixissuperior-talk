@@ -101,7 +101,7 @@ Output of one program -> input to another!
 ---
 
 
-# Scripts!
+# Scripts - automate all the things
 
 Can put a sequence of commands into a file! 
 
@@ -109,7 +109,7 @@ Can put a sequence of commands into a file!
 	
 	INPUTFOLDER=$1
 	TIMESTAMP=$(date +%s)
-    cp -r $INPUTFOLDER $HOME/backup-$TIMESTAMP
+    cp -r $INPUTFOLDER $HOME/backup-$INPUTFOLDER-$TIMESTAMP
 
 
 To run:
