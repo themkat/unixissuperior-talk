@@ -69,24 +69,14 @@ Let's learn some commands!
 
 ---
 
-# Searching with grep
-TODO: should pipes be used here already? Or should pipes section be moved?
-
-    /home/nightwing $ cat SUPERHERO_IDENTITIES.txt | grep BATMAN
-    BATMAN=Bruce Wayne 
-	
-	/home/nightwing $ grep -rnE "Tim Drake" 
-	./SUPERHERO_IDENTITIES.txt:ROBIN=Tim Drake
-
---- 
-
 # Reading docs
 
     /home/nightwing $ man grep
 	
 	/home/nightwing $ man docker-run
 
----
+
+--- 
 
 # Pipes
 TODO: should chaining be included somewhere? And the output of these operations
@@ -97,6 +87,17 @@ Output of one program -> input to another!
 	/home/nightwing $ echo "Appending a new line in testfile.txt" >> testfile.txt
 	
 	/home/nightwing $ ls | grep Programming
+
+---
+
+# Searching with grep
+TODO: should pipes be used here already? Or should pipes section be moved?
+
+    /home/nightwing $ cat SUPERHERO_IDENTITIES.txt | grep BATMAN
+    BATMAN=Bruce Wayne 
+	
+	/home/nightwing $ grep -rnE "Tim Drake" 
+	./SUPERHERO_IDENTITIES.txt:ROBIN=Tim Drake
 
 ---
 
